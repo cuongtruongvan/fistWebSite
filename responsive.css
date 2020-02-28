@@ -4,18 +4,46 @@
     box-sizing: border-box;
 }
 
-.tabbar {
-    display: flex;
-    border: 3px solid gray;
-    flex-direction: column;
+.li1 {
+    color: red;
+}
+
+a {
+    text-decoration: none;
 }
 
 .leftbar,
 .rightbar {
     background-color: #f1f1f1;
+    color: red;
     width: 100%;
-    margin: 50px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabbar {
+    border: 3px solid gray;
+    height: 150px;
+}
+
+.baner {
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    width: 100%;
+}
+
+.text1,
+.text2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
 }
